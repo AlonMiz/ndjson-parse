@@ -35,11 +35,11 @@ console.log(parsedNdjson[0].some) // thing
 (with `\n` line separators)
 
 
-[travis-url]: https://travis-ci.org/AlonMiz/parse-ndjson
-[travis-image]: https://travis-ci.org/AlonMiz/parse-ndjson.svg?branch=master
+[travis-url]: https://travis-ci.org/AlonMiz/ndjson-parse
+[travis-image]: https://travis-ci.org/AlonMiz/ndjson-parse.svg?branch=master
 
 [npm-url]: https://npmjs.org/package/ndjson-parse
 [npm-image]: https://img.shields.io/npm/v/ndjson-parse.svg
 
-[coveralls-url]: https://coveralls.io/github/AlonMiz/parse-ndjson
-[coveralls-image]: https://img.shields.io/coveralls/AlonMiz/parse-ndjson.svg
+[coveralls-url]: https://coveralls.io/github/AlonMiz/ndjson-parse
+[coveralls-image]: https://img.shields.io/coveralls/AlonMiz/ndjson-parse.svg

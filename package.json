@@ -1,5 +1,5 @@
 {
-  "name": "parse-ndjson",
+  "name": "ndjson-parse",
   "author": "Alon Mizrahi",
   "keywords": [
     "ndjson",
@@ -9,7 +9,7 @@
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlonMiz/parse-ndjson.git"
+    "url": "https://github.com/AlonMiz/ndjson-parse.git"
   },
   "contributors": [{
     "email": "alonmizra@gmail.com",

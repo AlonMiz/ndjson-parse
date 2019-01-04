@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {"url": "https://github.com/AlonMiz/parse-ndjson.git"},
   "contributors": [{
-    "email": "alonmizra@gmail.com", "name": "Alon Mizrahi", "url": ""
+    "email": "alonmizra@gmail.com", "name": "Alon Mizrahi", "url": "https://github.com/AlonMiz"
   }],
   "description": "parse Newline delimited JSON as array of json",
   "main": "index.js",

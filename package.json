@@ -20,7 +20,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "jest --watch",
-    "test": "jest --coverage"
+    "test": "jest --coverage --ci"
   },
   "license": "ISC",
   "devDependencies": {

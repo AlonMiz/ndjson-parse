@@ -1,9 +1,20 @@
 {
   "name": "parse-ndjson",
-  "version": "1.0.0",
-  "repository": {"url": "https://github.com/AlonMiz/parse-ndjson.git"},
+  "author": "Alon Mizrahi",
+  "keywords": [
+    "ndjson",
+    "parse",
+    "javascript"
+  ],
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlonMiz/parse-ndjson.git"
+  },
   "contributors": [{
-    "email": "alonmizra@gmail.com", "name": "Alon Mizrahi", "url": "https://github.com/AlonMiz"
+    "email": "alonmizra@gmail.com",
+    "name": "Alon Mizrahi",
+    "url": "https://github.com/AlonMiz"
   }],
   "description": "parse Newline delimited JSON as array of json",
   "main": "index.js",
@@ -12,7 +23,6 @@
     "watch": "jest --watch",
     "coverage": "jest --coverage"
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "coveralls": "^3.0.2",

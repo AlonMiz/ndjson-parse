@@ -1,0 +1,26 @@
+{
+  "name": "parse-ndjson",
+  "version": "1.0.0",
+  "repository": {"url": "https://github.com/AlonMiz/parse-ndjson.git"},
+  "contributors": [{
+    "email": "alonmizra@gmail.com", "name": "Alon Mizrahi", "url": ""
+  }],
+  "description": "parse Newline delimited JSON as array of json",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch",
+    "coverage": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0",
+    "nyc": "^13.1.0"
+  }
+}

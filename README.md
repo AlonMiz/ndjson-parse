@@ -1,5 +1,4 @@
 [![Build Status][travis-image]][travis-url]
-[![Coverage Status][coveralls-image]][coveralls-url]
 [![NPM Version][npm-image]][npm-url]
 
 # Simple ndjson Parser
@@ -40,6 +39,3 @@ console.log(parsedNdjson[0].some) // thing
 
 [npm-url]: https://npmjs.org/package/ndjson-parse
 [npm-image]: https://img.shields.io/npm/v/ndjson-parse.svg
-
-[coveralls-url]: https://coveralls.io/github/AlonMiz/ndjson-parse
-[coveralls-image]: https://img.shields.io/coveralls/AlonMiz/ndjson-parse.svg

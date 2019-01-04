@@ -19,9 +19,8 @@
   "description": "parse Newline delimited JSON as array of json",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "watch": "jest --watch",
-    "coverage": "jest --coverage"
+    "test": "jest --coverage"
   },
   "license": "ISC",
   "devDependencies": {

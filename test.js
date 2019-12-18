@@ -65,6 +65,16 @@ describe('Parse Ndjson', () => {
     expect(parsed[1]).toEqual(jsonObject);
   });
 
+  it('should parse json with empty lines', () => {
+    const jsonObject = { some: { nested: 'object' } };
+    const jsonString = JSON.stringify(jsonObject);
+    const parsed = ndjsonParser(`\n\r${jsonString}\n\n\n\r${jsonString}\n`);
+
+    expect(parsed.length).toEqual(2);
+    expect(parsed[0]).toEqual(jsonObject);
+    expect(parsed[1]).toEqual(jsonObject);
+  });
+
   it('should throw error on invalid json', (done) => {
     try {
       ndjsonParser('{someBadJson,');

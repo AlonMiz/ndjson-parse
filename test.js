@@ -92,4 +92,15 @@ describe('Parse Ndjson', () => {
       done();
     }
   });
+
+  it('should ignore last incomplete line if required', (done) => {
+    const jsonObject = { some: 'thing' };
+    const stringifiedJsonObject = JSON.stringify(jsonObject);
+    ['\n', '\r\n'].forEach((delimiter) => {
+      const parsed = ndjsonParser(`${stringifiedJsonObject}${delimiter}${stringifiedJsonObject.substr(0, 5)}`, true);
+      expect(parsed.length).toEqual(1);
+      expect(parsed[0]).toEqual(jsonObject);
+    });
+    done();
+  });
 });

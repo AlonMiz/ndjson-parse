@@ -26,12 +26,12 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "coveralls": "^3.0.2",
-    "cross-env": "^5.2.0",
-    "eslint": "^5.10.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
+    "coveralls": "^3.0.9",
+    "cross-env": "^5.2.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.20.1",
     "jest": "^23.6.0",
-    "nyc": "^13.1.0"
+    "nyc": "^13.3.0"
   }
 }
